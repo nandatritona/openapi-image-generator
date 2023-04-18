@@ -1,28 +1,27 @@
 # OpenAI Image Generator
 
-This is a simple image generator built with Node.js and Express that uses [OpenAI's Dall-E models](https://beta.openai.com/docs/guides/images) to generate images.
+Ini adalah generator gambar sederhana yang dibangun dengan node.js dan ekspres yang digunakan [OpenAI's Dall-E models](https://beta.openai.com/docs/guides/images) untuk menghasilkan gambar.
 
 ![Screenshot 2023-04-18 143424](https://user-images.githubusercontent.com/75880817/232705226-b546d357-93da-4c28-8783-9cbbf80929ca.png)
 
-
 ## Usage
 
-Rename the `example.env` file to `.env`.
+Buat file `.env` untuk setting API
 
-Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file.
+Dapatkan API KEY di [OpenAI](https://beta.openai.com/) lalu tambahkan ke `.env` file.
 
-Install the dependencies
+Instal dependensi
 
 ```bash
 npm install
 ```
 
-Run server
+Jalankan server
 
 ```bash
 npm start
 ```
 
-Visit `http://localhost:5001` in your browser.
+Visit `http://localhost:5001`di browser Anda.
 
-The endpoint is at `POST http://localhost:5001/openai/generateimage`.
+Titik akhir ada di `POST http://localhost:5001/openai/generateimage`.
